@@ -3,6 +3,8 @@ web/bundles/
 app/bootstrap*
 app/cache/*
 app/logs/*
+cache/
+log/
 vendor/
 
 # Configuration files
@@ -10,6 +12,9 @@ vendor/
 
 #Composer
 composer.phar
+
+#symfttpd
+symfttpd.phar
 
 # PHPUnit special files
 phpunit.xml
