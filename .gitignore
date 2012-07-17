@@ -1,12 +1,33 @@
-#phpStorm
-.idea
-
 # Symfony directories
-/web/bundles/
-/app/bootstrap*
-/app/cache/*
-/app/logs/*
-/vendor/
+web/bundles/
+app/bootstrap*
+app/cache/*
+app/logs/*
+vendor/
 
 # Configuration files
 /app/config/parameters.yml
+
+#Composer
+composer.phar
+
+# PHPUnit special files
+phpunit.xml
+undercontrol.xml
+clover.xml
+clover.html
+
+# Doctrine backup files
+*.php~
+
+# Cache
+Tests/Fixtures/app/cache
+Tests/Fixtures/app/logs
+Tests/autoload.php
+
+# Filesystem
+.DS_Store
+
+# IDES
+.nbproject
+.idea
