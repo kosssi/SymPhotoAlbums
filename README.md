@@ -10,7 +10,10 @@ git clone https://github.com/kosssi/SymPhotoAlbums.git
 cd SymPhotoAlbums
 cp app/config/parameters.yml.dist app/config/parameters.yml
 curl -s http://getcomposer.org/installer | php
-php composer.phar install
+php composer.phar update friendsofsymfony/user-bundle
+php composer.phar inst
+php app/console doctrine:database:create
+php app/console doctrine:schema:create
 ```
 
 ## Lancer un serveur

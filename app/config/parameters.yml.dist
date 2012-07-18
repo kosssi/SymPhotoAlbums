@@ -1,15 +1,16 @@
 parameters:
-    database_driver:   pdo_mysql
-    database_host:     localhost
-    database_port:     ~
-    database_name:     symfony
-    database_user:     root
-    database_password: ~
+    database_driver: pdo_sqlite
+    database_host: localhost
+    database_port: null
+    database_name: SymPhotoAlbums
+    database_user: root
+    database_password: pwd
+    database_path: %kernel.root_dir%/../SymPhotoAlbums.db
 
-    mailer_transport:  smtp
-    mailer_host:       localhost
-    mailer_user:       ~
-    mailer_password:   ~
+    mailer_transport: smtp
+    mailer_host: localhost
+    mailer_user: null
+    mailer_password: null
 
-    locale:            en
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    locale: en
+    secret: d220d6f3e1010cdbb8309d5ecf9310af5fd
