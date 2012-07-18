@@ -1,3 +1,6 @@
+# database
+SymPhotoAlbums.db
+
 # Symfony directories
 web/bundles/
 app/bootstrap*

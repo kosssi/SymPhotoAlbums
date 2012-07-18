@@ -1,9 +1,13 @@
 {
-    "hash": "ab7ccf177098603cace942212179431f",
+    "hash": "c2253773fc934c5014e6a928f09e9911",
     "packages": [
         {
             "package": "doctrine/common",
             "version": "2.2.2"
+        },
+        {
+            "package": "doctrine/data-fixtures",
+            "version": "v1.0.0-ALPHA2"
         },
         {
             "package": "doctrine/dbal",
@@ -22,6 +26,12 @@
             "version": "2.2.x-dev",
             "source-reference": "5d2a3bcb3b467f41ee58575764f3ba84937f76e4",
             "commit-date": "1341676080"
+        },
+        {
+            "package": "friendsofsymfony/user-bundle",
+            "version": "dev-master",
+            "source-reference": "080bb9c1a15bcd52166796d4254f24df74b7b796",
+            "commit-date": "1342480671"
         },
         {
             "package": "jms/aop-bundle",
@@ -138,19 +148,17 @@
             "commit-date": "1342275003"
         }
     ],
-    "packages-dev": [
-
-    ],
+    "packages-dev": null,
     "aliases": [
 
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "doctrine/doctrine-bundle": 20,
-        "twig/extensions": 20,
         "symfony/assetic-bundle": 20,
         "symfony/swiftmailer-bundle": 20,
         "symfony/monolog-bundle": 20,
+        "doctrine/doctrine-bundle": 20,
+        "twig/extensions": 20,
         "sensio/distribution-bundle": 20,
         "sensio/framework-extra-bundle": 20,
         "sensio/generator-bundle": 20
