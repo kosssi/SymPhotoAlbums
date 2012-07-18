@@ -11,7 +11,7 @@ cd SymPhotoAlbums
 cp app/config/parameters.yml.dist app/config/parameters.yml
 curl -s http://getcomposer.org/installer | php
 php composer.phar update friendsofsymfony/user-bundle
-php composer.phar inst
+php composer.phar install
 php app/console doctrine:database:create
 php app/console doctrine:schema:create
 ```
